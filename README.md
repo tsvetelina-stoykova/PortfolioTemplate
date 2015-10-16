@@ -1,3 +1,4 @@
 # PortfolioTemplate
 
-![alt tag](http://url/to/img.png)
+
+![alt tag](https://raw.github.com/tsvetelina-stoykova/PortfolioTemplate/UC.jpg)
