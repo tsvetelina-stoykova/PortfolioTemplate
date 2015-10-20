@@ -14,7 +14,7 @@ header
 
   nav
     float: right
-    margin: 30px 30px 0 0
+    padding: 30px 30px 0 0
     a
       display: inline-block
       margin-left: 20px
@@ -45,3 +45,23 @@ header
     color: $logo-color
     @extend %small-bold
     letter-spacing: 0.05em
+
+
+@media (max-width: 640px)
+  header
+    .logo
+      padding-left: 40%
+    nav
+      float: none
+      display: inline-block
+      text-align: center
+      padding-left: 20%
+    h1
+      padding-top: 0px
+
+@media (max-width: 320px)
+  header
+    .logo
+      padding-left: 35%
+    nav
+      padding-left: 5%
